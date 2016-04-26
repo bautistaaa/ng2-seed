@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Javascript Junky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app/styles/main.css">
+
+    <!-- 1. Load libraries -->
+    <script src="jspm_packages/npm/angular2@2.0.0-beta.15/bundles/angular2-polyfills.js"></script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+        System.import('app').then(null, console.error.bind(console));
+    </script>
+</head>
+
+<!-- 3. Display the application -->
+
+<body>
+    <my-app>Loading...</my-app>
+</body>
+
+</html>
